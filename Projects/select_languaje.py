@@ -3,9 +3,12 @@ from selenium import webdriver
 #submodulo  para usar el dropdown
 from selenium.webdriver.support.ui import Select
 
+#IMPORTANTE#
+# find_elements(find_element('id', 'firstname')) //instead// find_elements_by_id('select-language')
+
 class LanguageOptions(unittest.TestCase):
 	def setUp(self):
-		self.driver = webdriver.Chrome(executable_path = r'.\chromedriver.exe')
+		self.driver = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
 		driver = self.driver
 		driver.implicitly_wait(30)
 		driver.maximize_window()
