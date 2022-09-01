@@ -1,7 +1,7 @@
 # Selenium with Python 🐲
 Selenium with Python were a project and practices are evidenced 
 
->A series of practices where Selenium is executed with languaje python based with projects and tools where i put in practice the different concepts of the languajes based on the platzi course .
+>A series of practices where Selenium is executed with languaje Python based on the terminal using WSL and Ubuntu creating projects and tools where i put in practice the different concepts of the languajes based on the platzi course .
 
 ## It is evidenced:
 * Assertions 
